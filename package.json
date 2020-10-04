@@ -1,0 +1,8 @@
+{
+  "name": "basic_javascript_typescrip_structure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/anisioaleixo/basic_javascript_typescrip_structure.git",
+  "author": "anisioaleixo <anisioaleixo@yahoo.com.br>",
+  "license": "MIT"
+}
