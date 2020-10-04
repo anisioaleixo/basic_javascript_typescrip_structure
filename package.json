@@ -1,11 +1,19 @@
 {
-  "name": "basic_javascript_typescrip_structure",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/anisioaleixo/basic_javascript_typescrip_structure.git",
-  "author": "anisioaleixo <anisioaleixo@yahoo.com.br>",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  }
+    "name": "basic_javascript_typescrip_structure",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/anisioaleixo/basic_javascript_typescrip_structure.git",
+    "author": "anisioaleixo <anisioaleixo@yahoo.com.br>",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon server.ts"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.8",
+        "nodemon": "^2.0.4",
+        "typescript": "^4.0.3"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
